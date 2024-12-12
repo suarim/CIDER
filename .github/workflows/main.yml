@@ -42,4 +42,4 @@ jobs:
       - name: run image
         run: docker run -d -p 3000:3000 ${{ secrets.DOCKER_USERNAME }}/cicd-app
       - name: curl
-        run: curl -s http://localhost:3000
+        run: curl  http://localhost:3000
