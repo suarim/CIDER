@@ -47,7 +47,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
       - name: Set up Minikube
-        uses: manusa/actions-setup-minikube@v2
+        uses: manusa/actions-setup-minikube@v2.13.0
         with:
           minikube-version: 'latest'
       - name: start minikube
